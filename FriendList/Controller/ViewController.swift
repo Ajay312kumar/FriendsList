@@ -8,11 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
     
     @IBOutlet weak var myTableView: UITableView!
-    
     
     var friendArray = [Friend]()
     var friendPhotos = [UIImage?]()
@@ -20,13 +17,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         friendArray = Friend.defaultFriendList()
-        
-        
         myTableView.delegate = self
         myTableView.dataSource = self
         
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -36,20 +31,14 @@ class ViewController: UIViewController {
     
     @IBAction func nextPage(_ sender: UIBarButtonItem) {
         
-        print("rr")
-        
-        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "InformationViewController") as! InformationViewController
         vc.delegate = self
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource{
-    
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         friendArray.count
@@ -75,7 +64,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         else {
             cell.nameLable.text = "\(friendArray[indexPath.row].firstName) \(friendArray[indexPath.row].lastName)"
         }
-
+        
         let isContactOn = userStandard.bool(forKey: UserDefaultKey.contactKey.rawValue)
         cell.contactLabel.text = isContactOn ? "" : friendArray[indexPath.row].contact
         

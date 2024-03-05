@@ -142,8 +142,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter last name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5T-uZ-WTe">
-                                <rect key="frame" x="16" y="349" width="361" height="50"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="339" width="361" height="50"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="8GT-xz-oNI"/>
                                 </constraints>
@@ -151,8 +151,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pwf-cr-lRB">
-                                <rect key="frame" x="16" y="444" width="361" height="50"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="16" y="419" width="361" height="50"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="c7p-3i-x1Y"/>
                                 </constraints>
@@ -160,7 +160,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW3-dD-2nM">
-                                <rect key="frame" x="105.66666666666669" y="570" width="182" height="55"/>
+                                <rect key="frame" x="105.66666666666669" y="509" width="182" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="MR7-44-qPG"/>
                                     <constraint firstAttribute="width" constant="182" id="S8k-JZ-eV4"/>
@@ -191,12 +191,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pwf-cr-lRB" firstAttribute="leading" secondItem="2HQ-ia-QTg" secondAttribute="leading" constant="16" id="3Ib-Ko-GSz"/>
-                            <constraint firstItem="fW3-dD-2nM" firstAttribute="top" secondItem="pwf-cr-lRB" secondAttribute="bottom" constant="76" id="3PS-er-EWg"/>
+                            <constraint firstItem="fW3-dD-2nM" firstAttribute="top" secondItem="pwf-cr-lRB" secondAttribute="bottom" constant="40" id="3PS-er-EWg"/>
                             <constraint firstItem="jid-cc-cYN" firstAttribute="top" secondItem="g9W-Us-21T" secondAttribute="bottom" constant="47" id="EAg-Yp-f8c"/>
                             <constraint firstItem="fW3-dD-2nM" firstAttribute="centerX" secondItem="Tyk-i1-tPo" secondAttribute="centerX" id="Sp1-Xp-UhB"/>
                             <constraint firstItem="2HQ-ia-QTg" firstAttribute="trailing" secondItem="g9W-Us-21T" secondAttribute="trailing" constant="76" id="WFt-Rj-yqN"/>
                             <constraint firstItem="2HQ-ia-QTg" firstAttribute="trailing" secondItem="pwf-cr-lRB" secondAttribute="trailing" constant="16" id="YYy-MJ-1w9"/>
-                            <constraint firstItem="pwf-cr-lRB" firstAttribute="top" secondItem="h5T-uZ-WTe" secondAttribute="bottom" constant="45" id="ZD9-Po-Mga"/>
+                            <constraint firstItem="pwf-cr-lRB" firstAttribute="top" secondItem="h5T-uZ-WTe" secondAttribute="bottom" constant="30" id="ZD9-Po-Mga"/>
                             <constraint firstItem="g9W-Us-21T" firstAttribute="top" secondItem="2HQ-ia-QTg" secondAttribute="top" constant="25" id="f69-s1-BNr"/>
                             <constraint firstItem="2HQ-ia-QTg" firstAttribute="trailing" secondItem="jid-cc-cYN" secondAttribute="trailing" constant="16" id="fdp-gQ-Dzn"/>
                             <constraint firstItem="g9W-Us-21T" firstAttribute="leading" secondItem="2HQ-ia-QTg" secondAttribute="leading" constant="76" id="gxJ-SD-YLu"/>
@@ -204,7 +204,7 @@
                             <constraint firstItem="h5T-uZ-WTe" firstAttribute="leading" secondItem="2HQ-ia-QTg" secondAttribute="leading" constant="16" id="lgh-lh-KvG"/>
                             <constraint firstItem="jid-cc-cYN" firstAttribute="leading" secondItem="2HQ-ia-QTg" secondAttribute="leading" constant="16" id="vhU-MT-oat"/>
                             <constraint firstItem="2HQ-ia-QTg" firstAttribute="trailing" secondItem="h5T-uZ-WTe" secondAttribute="trailing" constant="16" id="wv2-Iz-WCk"/>
-                            <constraint firstItem="h5T-uZ-WTe" firstAttribute="top" secondItem="jid-cc-cYN" secondAttribute="bottom" constant="40" id="wyV-rL-c9d"/>
+                            <constraint firstItem="h5T-uZ-WTe" firstAttribute="top" secondItem="jid-cc-cYN" secondAttribute="bottom" constant="30" id="wyV-rL-c9d"/>
                         </constraints>
                     </view>
                     <connections>
